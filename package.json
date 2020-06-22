@@ -1,0 +1,28 @@
+{
+  "name": "create-ultimate-mern-app",
+  "version": "1.0.6",
+  "description": "Create a Mern app by just by single command",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "keywords":["react","mern","create-mern-app","create-react-app"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvssankar/npmp3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvssankar/npmp3/issues"
+  },
+  "bin": {
+    "create-ultimate-mern-app": "index.js"
+  },
+  "homepage": "https://github.com/kvssankar/npmp3#readme"
+}
