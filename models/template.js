@@ -1,3 +1,3 @@
 module.exports = {
-    'testModal.js': require('./testModal.js')
+    'testModel.js': require('./testModal.js')
   }
