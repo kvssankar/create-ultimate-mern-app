@@ -1,6 +1,6 @@
 {
   "name": "create-ultimate-mern-app",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Create a Mern app with the best folder structure just like create-react-app",
   "main": "index.js",
   "dependencies": {

@@ -14,7 +14,6 @@ const run = async () => {
     }
     await nping()
     await giting()
-    await createGitFile()
     await installPackages()
     await clientPackages()
     await updateTemplates()
@@ -301,21 +300,21 @@ const giting=()=>{
     })
   })
 }
-let gitpack=require('./git/template.js');
-const createGitFile = () => {
-  return new Promise(resolve=>{
-    let promises = []
-    Object.keys(css).forEach((fileName, i)=>{
-      promises[i] = new Promise(res=>{
-        fs.writeFile(`${appDirectory}/${fileName}`, gitpack[fileName], function(err) {
-            if(err) { return console.log(err) }
-            res()
-        })
-      })
-    })
-    Promise.all(promises).then(()=>{resolve()})
-  })
-}
+// let gitpack=require('./git/template.js');
+// const createGitFile = () => {
+//   return new Promise(resolve=>{
+//     let promises = []
+//     Object.keys(css).forEach((fileName, i)=>{
+//       promises[i] = new Promise(res=>{
+//         fs.writeFile(`${appDirectory}/${fileName}`, gitpack[fileName], function(err) {
+//             if(err) { return console.log(err) }
+//             res()
+//         })
+//       })
+//     })
+//     Promise.all(promises).then(()=>{resolve()})
+//   })
+// }
 
   const nping = () => {
     return new Promise(resolve=>{
