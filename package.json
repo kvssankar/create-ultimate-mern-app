@@ -1,6 +1,6 @@
 {
   "name": "create-ultimate-mern-app",
-  "version": "1.1.5",
+  "version": "1.1.7",
   "description": "Create a Mern app with the best folder structure just like create-react-app",
   "main": "index.js",
   "dependencies": {
@@ -10,10 +10,17 @@
   },
   "devDependencies": {},
   "keywords": [
+    "create-mern-app",
+    "create-ultimate-mern-app",
+    "create-react-app",
+    "mern-app-creater",
+    "create-react-router-app",
+    "create-react-redux-app",
+    "create-react-router-redux-app",
     "react",
     "mern",
-    "create-mern-app",
-    "create-react-app"
+    "create-express-app",
+    "create-mongoose-app"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
