@@ -1,6 +1,6 @@
 {
   "name": "create-ultimate-mern-app",
-  "version": "1.1.7",
+  "version": "1.0.0",
   "description": "Create a Mern app with the best folder structure just like create-react-app",
   "main": "index.js",
   "dependencies": {
@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kvssankar/npmp3.git"
+    "url": "git+https://github.com/kvssankar/create-ultimate-mern-app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kvssankar/npmp3/issues"
+    "url": "https://github.com/kvssankar/create-ultimate-mern-app/issues"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -40,5 +40,5 @@
   "bin": {
     "create-ultimate-mern-app": "index.js"
   },
-  "homepage": "https://github.com/kvssankar/npmp3#readme"
+  "homepage": "https://github.com/kvssankar/create-ultimate-mern-app#readme"
 }
