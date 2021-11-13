@@ -1,3 +1,5 @@
 module.exports = {
-    'default.json': require('./default.json')
-  }
+  "default.json": ` {
+      "mongoURI": "..."
+    }`,
+};

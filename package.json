@@ -34,7 +34,9 @@
   "bugs": {
     "url": "https://github.com/kvssankar/npmp3/issues"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "bin": {
     "create-ultimate-mern-app": "index.js"
   },
