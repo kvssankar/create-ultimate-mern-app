@@ -29,7 +29,7 @@
     "type": "git",
     "url": "git+https://github.com/kvssankar/create-ultimate-mern-app.git"
   },
-  "author": "",
+  "author": "kvssankar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kvssankar/create-ultimate-mern-app/issues"
